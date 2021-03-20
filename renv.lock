@@ -571,10 +571,10 @@
     },
     "sp": {
       "Package": "sp",
-      "Version": "1.4-5",
+      "Version": "1.3-2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "dfd843ee98246cf932823acf613b05dd"
+      "Hash": "803f04b858b8520ac243d38e09741de6"
     },
     "stringi": {
       "Package": "stringi",
