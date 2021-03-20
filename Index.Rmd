@@ -14,14 +14,14 @@ description: >
 library(leaflet)
 library(dplyr)
 library(tidyr)
-library(agridat)
-library(scico)
+#library(agridat)
+#library(scico)
 library(plotly)
 library(ggplot2)
 library(learnr)
 
 
-data(beaven.barley)
+beaven.barley <- read.csv("beanven_barley.csv")
 
 
 experiment2017<-read.csv("experiment2017.csv")
@@ -47,7 +47,8 @@ Like this:
 ( beaven.barley%>%
   ggplot(aes(x=col, y=gen, colour=yield, row=row))+
     geom_point(size=3)+
-      scale_color_scico(palette = "vik")+
+      #scale_color_scico(palette = "vik")+
+      scale_color_distiller(palette="Spectral")+
         labs(title="Genotype by Column, coloured by yield") ) %>%
           ggplotly()
 
@@ -91,7 +92,8 @@ Here is our plot:
 beaven.barley%>%
   ggplot(aes(x=col, y=gen, colour=yield))+
     geom_point(size=3)+
-      scale_color_scico(palette = "vik")+
+      #scale_color_scico(palette = "vik")+
+      scale_color_distiller(palette="Spectral")+
         labs(title="Genotype by Column, coloured by yield")
 
 ```
@@ -109,7 +111,8 @@ Maybe we want to impress our friends, colleagues and supervisors by using this i
 p1 <- beaven.barley %>%
   ggplot(aes(x=col, y=gen, colour=yield))+
     geom_point(size=3)+
-      scale_color_scico(palette = "vik")+
+      #scale_color_scico(palette = "vik")+
+      scale_color_distiller(palette="Spectral")+
         labs(title="Genotype by Column, coloured by yield")
 
 ggplotly(p1)
@@ -129,7 +132,8 @@ Alternatively you can wrap your entire plotting code in brackets and pipe from t
 ( beaven.barley%>%
     ggplot(aes(x=col, y=gen, colour=yield))+
       geom_point(size=3)+
-        scale_color_scico(palette = "vik")+
+        #scale_color_scico(palette = "vik")+
+        scale_color_distiller(palette="Spectral")+
           labs(title="Genotype by Column, coloured by yield") ) %>%
             ggplotly()
 
@@ -144,7 +148,8 @@ An additional nice feature you can use here is to add in extra aesthetics which 
 ( beaven.barley%>%
   ggplot(aes(x=col, y=gen, colour=yield, row=row))+
     geom_point(size=3)+
-      scale_color_scico(palette = "vik")+
+      #scale_color_scico(palette = "vik")+
+      scale_color_distiller(palette="Spectral")+
         labs(title="Genotype by Column, coloured by yield") ) %>%
           ggplotly()
 

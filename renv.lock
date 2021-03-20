@@ -58,13 +58,13 @@
       "Repository": "CRAN",
       "Hash": "f3ca785924863b0e4c8cb23b6a5c75a1"
     },
-    "agridat": {
-      "Package": "agridat",
-      "Version": "1.18",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "87a7956a215089ca5fac571b66376ae4"
-    },
+				
+						   
+						
+							 
+						   
+												
+	  
     "askpass": {
       "Package": "askpass",
       "Version": "1.1",
@@ -548,13 +548,13 @@
       "Repository": "CRAN",
       "Hash": "a1c68369c629ea3188d0676e37069c65"
     },
-    "scico": {
-      "Package": "scico",
-      "Version": "1.2.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "8c75fb64420e2aafadbc258e2797c459"
-    },
+			  
+						 
+						 
+							 
+						   
+												
+	  
     "shiny": {
       "Package": "shiny",
       "Version": "1.4.0",
