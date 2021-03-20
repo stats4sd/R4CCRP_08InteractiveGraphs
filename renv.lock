@@ -58,13 +58,6 @@
       "Repository": "CRAN",
       "Hash": "f3ca785924863b0e4c8cb23b6a5c75a1"
     },
-				
-						   
-						
-							 
-						   
-												
-	  
     "askpass": {
       "Package": "askpass",
       "Version": "1.1",
@@ -548,13 +541,6 @@
       "Repository": "CRAN",
       "Hash": "a1c68369c629ea3188d0676e37069c65"
     },
-			  
-						 
-						 
-							 
-						   
-												
-	  
     "shiny": {
       "Package": "shiny",
       "Version": "1.4.0",
@@ -610,13 +596,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "1c61e4cad000e03b1bd687db16a75926"
-    },
-    "tidyr": {
-      "Package": "tidyr",
-      "Version": "1.0.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "8187ca2c27e80978f5b143bec554a437"
     },
     "tidyselect": {
       "Package": "tidyselect",

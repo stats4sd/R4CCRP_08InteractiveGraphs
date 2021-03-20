@@ -1,0 +1,23 @@
+"Farmer","Latitude","Longitude","Gender","Accept","Plot_type","Yield"
+"Hawaou Etamè",4.13676,11.54421,"Female","Yes","Control",10
+"Hawaou Etamè",4.13676,11.54421,"Female","Yes","Treatment",299
+"Éliane Ouandié",4.14545,11.491345,"Female","Yes","Control",540
+"Éliane Ouandié",4.14545,11.491345,"Female","Yes","Treatment",721
+"Romaine Makau",4.145878,11.487472,"Female","Yes","Control",424
+"Romaine Makau",4.145878,11.487472,"Female","Yes","Treatment",412
+"Coline Kiessou",4.146338,11.483642,"Female","Yes","Control",798
+"Coline Kiessou",4.146338,11.483642,"Female","Yes","Treatment",971
+"Nadia Yondo",4.14271,11.477913,"Female","No","Control",763
+"Nadia Yondo",4.14271,11.477913,"Female","No","Treatment",481
+"Yolande Kiki",4.130234,11.516895,"Female","No","Control",743
+"Yolande Kiki",4.130234,11.516895,"Female","No","Treatment",578
+"Robin Boko",4.107758,11.8495,"Male","No","Control",913
+"Robin Boko",4.107758,11.8495,"Male","No","Treatment",839
+"Fabien Nde",4.145783,11.86696,"Male","No","Control",450
+"Fabien Nde",4.145783,11.86696,"Male","No","Treatment",348
+"Alexandre Esanji",4.085736,11.895782,"Male","No","Control",645
+"Alexandre Esanji",4.085736,11.895782,"Male","No","Treatment",537
+"Jacob Kuka",4.114845,11.823748,"Male","No","Control",373
+"Jacob Kuka",4.114845,11.823748,"Male","No","Treatment",115
+"Anthony Kamalandua",4.14889,11.87564,"Male","No","Control",262
+"Anthony Kamalandua",4.14889,11.87564,"Male","No","Treatment",285
